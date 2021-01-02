@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './Banner.css';
+import requests from '../../request';
+import axios from '../../axios';
 
 function Banner() {
+
+
+
   return (
-    <div>
-      
-    </div>
+    <header className="banner">
+
+    </header>
   )
 }
 
