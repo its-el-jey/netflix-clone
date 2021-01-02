@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;300&display=swap');
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Poppins';
+}
+.App {
+  background-color: #111;
 }
