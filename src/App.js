@@ -1,14 +1,13 @@
 import './App.css';
 import Banner from './components/banner/Banner';
 import Row from './components/row/Row';
-// import Nav from './components/nav/Nav';
-// import Banner from './components/banner';
+import Nav from './components/nav/Nav';
 import requests from './request';
 
 function App() {
   return (
     <div className="App">
-      {/* <Nav /> */}
+      <Nav />
       <Banner />
       
       <Row 
