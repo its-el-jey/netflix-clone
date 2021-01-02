@@ -1,9 +1,12 @@
 .row {
   color: #fff;
   margin-left: 20px;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
+
+.row > h2 {
+  padding-top: 2rem;
+}
+
 .row__posters {
   display: flex;
   overflow-y: hidden;
